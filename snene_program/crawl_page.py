@@ -1,8 +1,4 @@
-import asyncio_program
-
-import aiohttp as aiohttp
-import requests
-from bs4 import BeautifulSoup
+from snene_program import asyncio_program
 
 # def main():
 #     url = 'https://movie.douban.com/cinema/later/beijing/'

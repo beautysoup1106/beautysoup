@@ -21,12 +21,12 @@ def parse(text):
     return sortes_word_cnt
 
 
-with open('in.txt','r') as fin:
+with open('../base_syntax/in.txt', 'r') as fin:
     text=fin.read()
 
 word_and_freq=parse(text)
 
-with open('out.txt','w') as fout:
+with open('../base_syntax/out.txt', 'w') as fout:
     for word,freq in word_and_freq:
         fout.write('{}  {}\n'.format(word,freq))
 
