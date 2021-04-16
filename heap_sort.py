@@ -31,6 +31,7 @@
 # heapSort(arr)
 #
 # print(arr)
+import cProfile
 import math
 import sys
 
@@ -58,5 +59,5 @@ def sink(list, root):
 if __name__ == '__main__':
     list = [1, 8, 2, 23, 7, -4, 18, 23, 42, 37, 2]
     for i in range(len(list) // 2 - 1, -1, -1):
-        sink(list, i)
+        cProfile.run('sink(list, i)')
     print(list)
