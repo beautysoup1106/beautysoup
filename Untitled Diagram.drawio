@@ -1,1 +1,238 @@
-<mxfile host="app.diagrams.net" modified="2022-04-15T02:44:17.817Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" version="17.4.4" etag="OZFFsYfQHdY0htrGLFWl" type="github"><diagram id="VltzyXrzxV8DOetloBuF">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-15T04:02:29.677Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="lSroI9gfecW6MGHo4mIt" version="17.4.4" type="github">
+  <diagram id="VltzyXrzxV8DOetloBuF" name="Page-1">
+    <mxGraphModel dx="2591" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-6" value="书城主页" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="449.5" y="410" as="sourcePoint" />
+            <mxPoint x="450" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-65" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3ck7bqpR9_0eQTbLvJao-8" target="3ck7bqpR9_0eQTbLvJao-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-8" value="根据运营后台配置频道、栏目、榜单组、榜单信息，获取栏目书籍信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-68" value="开始阅读" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3ck7bqpR9_0eQTbLvJao-12" target="3ck7bqpR9_0eQTbLvJao-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-12" value="选择小说进入小说书详" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="690" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-77" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="3ck7bqpR9_0eQTbLvJao-15" target="3ck7bqpR9_0eQTbLvJao-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="620" y="840" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-78" value="继续阅读" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="3ck7bqpR9_0eQTbLvJao-77">
+          <mxGeometry x="0.1889" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-15" value="阅读第一章" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="207" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="229" y="380" as="sourcePoint" />
+            <mxPoint x="389" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-18" value="非新用户" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="3ck7bqpR9_0eQTbLvJao-17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="3ck7bqpR9_0eQTbLvJao-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="159" y="340" as="sourcePoint" />
+            <mxPoint x="280" y="238" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="190" y="238" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-24" value="是（推广用户or自然量新用户）" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="3ck7bqpR9_0eQTbLvJao-23">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-20" y="-8" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-25" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="236.5" as="sourcePoint" />
+            <mxPoint x="410" y="237" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-26" value="是" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="3ck7bqpR9_0eQTbLvJao-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="3ck7bqpR9_0eQTbLvJao-40">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="280" as="sourcePoint" />
+            <mxPoint x="447" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-28" value="是" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="3ck7bqpR9_0eQTbLvJao-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-79" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3ck7bqpR9_0eQTbLvJao-34" target="3ck7bqpR9_0eQTbLvJao-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-34" value="&lt;span&gt;用户进入APP&lt;/span&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="340" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-37" value="是否新用户" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="340" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-38" value="是否进入轻量阅读器" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="197" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-40" value="是否退出轻量阅读器" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="407" y="196" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-41" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="487" y="236.5" as="sourcePoint" />
+            <mxPoint x="560" y="237" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-42" value="否" style="edgeLabel;resizable=0;html=1;align=center;verticalAlign=middle;" connectable="0" vertex="1" parent="3ck7bqpR9_0eQTbLvJao-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-63" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3ck7bqpR9_0eQTbLvJao-43" target="3ck7bqpR9_0eQTbLvJao-53">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-66" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3ck7bqpR9_0eQTbLvJao-43" target="3ck7bqpR9_0eQTbLvJao-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-43" value="是否小说频道" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="410" y="560" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-71" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3ck7bqpR9_0eQTbLvJao-50" target="3ck7bqpR9_0eQTbLvJao-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-50" value="是否有声频道" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="124" y="560" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-64" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3ck7bqpR9_0eQTbLvJao-53" target="3ck7bqpR9_0eQTbLvJao-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-70" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3ck7bqpR9_0eQTbLvJao-53" target="3ck7bqpR9_0eQTbLvJao-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-53" value="是否漫画频道" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="264" y="560" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-75" value="开始播放" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3ck7bqpR9_0eQTbLvJao-56" target="3ck7bqpR9_0eQTbLvJao-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-56" value="选择有声资源进入有声详情" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="104" y="691" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-101" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3ck7bqpR9_0eQTbLvJao-67" target="3ck7bqpR9_0eQTbLvJao-100">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-67" value="进入小说常规阅读器" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="390" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-73" value="开始阅读" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3ck7bqpR9_0eQTbLvJao-69" target="3ck7bqpR9_0eQTbLvJao-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-69" value="选择漫画书籍进入漫画详情" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="244" y="691" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-72" value="进入漫画阅读器" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="244" y="811" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-74" value="拉起有声播放器" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="104" y="811" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-83" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3ck7bqpR9_0eQTbLvJao-80" target="3ck7bqpR9_0eQTbLvJao-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-85" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3ck7bqpR9_0eQTbLvJao-80" target="3ck7bqpR9_0eQTbLvJao-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-80" value="是否付费章节" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1034" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-82" value="免费阅读小说章节" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="323" y="1043" width="50" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-91" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3ck7bqpR9_0eQTbLvJao-84" target="3ck7bqpR9_0eQTbLvJao-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-93" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3ck7bqpR9_0eQTbLvJao-84" target="3ck7bqpR9_0eQTbLvJao-92">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-84" value="是否已经购买下载" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1165" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-90" value="免费阅读小说章节" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1175" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-95" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3ck7bqpR9_0eQTbLvJao-92" target="3ck7bqpR9_0eQTbLvJao-94">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-92" value="是否余额充足" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="1293" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-97" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3ck7bqpR9_0eQTbLvJao-94" target="3ck7bqpR9_0eQTbLvJao-96">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-99" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3ck7bqpR9_0eQTbLvJao-94" target="3ck7bqpR9_0eQTbLvJao-98">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-94" value="是否有书籍折扣券" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="541" y="1293" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-96" value="折扣价格解锁章节阅读" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="681" y="1303" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-98" value="原价解锁章节阅读" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="521" y="1408" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-104" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3ck7bqpR9_0eQTbLvJao-100" target="3ck7bqpR9_0eQTbLvJao-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-108" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3ck7bqpR9_0eQTbLvJao-100" target="3ck7bqpR9_0eQTbLvJao-107">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-100" value="是否付费书籍" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="410" y="901" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-114" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="3ck7bqpR9_0eQTbLvJao-113">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="251" y="981" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-107" value="是否广告书籍" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="212" y="901" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-116" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3ck7bqpR9_0eQTbLvJao-113">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="251" y="1203" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-119" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3ck7bqpR9_0eQTbLvJao-113" target="3ck7bqpR9_0eQTbLvJao-82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-113" value="是否解锁章节" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="211" y="1033" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="3ck7bqpR9_0eQTbLvJao-115" value="阅读广告解锁" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="192" y="1203" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
